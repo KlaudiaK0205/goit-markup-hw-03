@@ -1,0 +1,270 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #212121;
+  --secondary-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--main-color);
+}
+
+/* ========== COMPONENTS ========== */
+
+.logo-web-studio-light-theme {
+  color: var(--main-color);
+  background-color: #ffffff;
+}
+
+.logo-web-studio-dark-theme {
+  color: #ffffff;
+  background-color: #2F303A;
+}
+
+/* ========== END COMPONENTS ========== */
+
+/* ========== HEADER ========== */
+
+/* ========== WEBSTUDIO ==========  */
+
+.logo-web-studio {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-web-studio span {
+  color: var(--secondary-color);
+}
+
+/* ========== END WEBSTUDIO ==========  */
+
+.navigation-list-link,
+.mailto,
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navigation-list-link:visited {
+  color: var(--main-color);
+}
+
+.mailto,
+.phone {
+  color: #757575;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.button-list-item:hover,
+.button-list-item:focus,
+.address-home:hover,
+.address-home:focus,
+.mailto:hover,
+.mailto:focus,
+.phone:hover,
+.phone:focus,
+.contact-mailto:hover,
+.contact-mailto:focus,
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--secondary-color);
+}
+
+.navigation-list,
+.our-strengths-item,
+.what-we-do-list,
+.our-team-list,
+.button-list,
+.images-list,
+.address-list-item {
+  list-style: none;
+}
+
+/* ========== END HEADER ========== */
+
+/* ========== EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
+
+.effective-solutions-background {
+  background-color: #2f303a;
+}
+
+.effective-solutions-for-your-business {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: white;
+
+  /* bg modal-btn "Zamów usługę" */
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* ========== END EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
+
+/* ========== NASZE ATUTY ========== */
+.our-strengths-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.our-strengths-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* ========== END NASZE ATUTY ========== */
+
+/* ========== CZYM SIĘ ZAJMUJEMY ========== */
+
+.what-we-do-title,
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* ========== END CZYM SIĘ ZAJMUJEMY ========== */
+
+/* ========== NASZ ZESPÓŁ ========== */
+
+.our-team-list-item {
+  background: url(2968.jpg);
+  border-radius: 0px;
+}
+
+.team-name {
+  font-weight: 500;
+  color: #212121;
+}
+
+.team-job {
+  font-weight: 400;
+  color: #757575;
+}
+
+.team-name,
+.team-job {
+  font-size: 16px;
+  line-height: 1.888;
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+/* ========== END NASZ ZESPÓŁ ========== */
+
+/* ========== END MAIN ========== */
+
+/* ========== FOOTER ========== */
+
+.footer {
+  background-color: #2f303a;
+}
+
+/* .p logo studio w footer */
+
+.address-home {
+  color: #ffffff;
+}
+
+.contact-mailto,
+.contact-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-home,
+.contact-mailto,
+.contact-phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* ========== END FOOTER ========== */
+
+/* ========== PORTFOLIO ========== */
+
+.modal-btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: #212121;
+
+  background: #f5f4fa;
+  border-radius: 0px;
+}
+
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+  color: #ffffff;
+
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 0px;
+}
+
+.images-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.images-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* ========== END PORTFOLIO ========== */
