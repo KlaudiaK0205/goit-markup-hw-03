@@ -408,7 +408,7 @@ img {
 
   color: var(--main-color);
 
-  background: var(--senary-color)#f5f4fa;
+  background: var(--senary-color);
   border-radius: 0px;
 }
 
