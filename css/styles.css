@@ -8,7 +8,6 @@
   --quinary-color: #ECECEC;
   --senary-color: #f5f4fa;
   --septenary-color:  #757575;
-  octonary, nonary, denary.
 }
 
 body {
@@ -92,7 +91,6 @@ img {
 
 .navigation  {
   display: flex;
-
 }
 
 .navigation-list {
@@ -160,6 +158,7 @@ img {
 /* ========== END HEADER ========== */
 
 /* ========== HERO ========== */
+
 /* ========== EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
 
 .hero .container {
@@ -195,8 +194,6 @@ img {
 }
 
 .modal-btn {
-  /* width: 200px; */
-  /* height: 50px; */
   border: 0px;
   border-radius: 4px;
   padding: 10px 41px;
@@ -206,9 +203,9 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  text-align: center; */
+  text-align: center;
   letter-spacing: 0.06em;
   color: var(--tertiary-color);
   cursor: pointer;
@@ -219,21 +216,20 @@ img {
 /* ========== NASZE ATUTY ========== */
 .our-strengths .container {
   position: absolute;
-  width: 1600px;
+  width: 1170px;
   /* height: 101px; */
   left: 215px;
-  right: 215px;
   top: 774px;
 }
 
 .our-strengths-list {
   display: flex;  
-  
 }
 
 .our-strengths-item {
   flex-basis: calc(100% / 4 - 30px);
 }
+
 .our-strengths-item:not(:last-child) {
   margin-right: 30px;
  }
@@ -245,9 +241,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+  padding-bottom: 10px;
 }
 
 .our-strengths-text {
+  width: 270px;
+/* height: 75px; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -282,8 +281,6 @@ img {
   margin-right: 30px;
  }
 
-
-
 .what-we-do-title,
 .our-team-title {
   font-weight: 700;
@@ -297,18 +294,17 @@ img {
 /* ========== END CZYM SIĘ ZAJMUJEMY ========== */
 
 /* ========== NASZ ZESPÓŁ ========== */
+
 .our-team .container {
   position: absolute;
   /* width: 1600px;
   height: 648px; */
-  /* left: 0px; */
-  top: 1449px;
+   top: 1449px;
   background: var(--senary-color);
 }
 
 .our-team-title {
   padding: 94px 695px 50px;
-  
 }
 
 .our-team-list-item {
@@ -368,9 +364,8 @@ img {
 .footer .logo-web-studio {
   padding: 60px 1240px 20px 215px;
 }
-.address-list {
 
-}
+
 .address-list-item {
   display: flex;
   padding-left: 215px;
