@@ -3,6 +3,12 @@
   --secondary-font: "Raleway", sans-serif;
   --main-color: #212121;
   --secondary-color: #2196f3;
+  --tertiary-color: #ffffff;
+  --quaternary-color: #2f303a;
+  --quinary-color: #ECECEC;
+  --senary-color: #f5f4fa;
+  --septenary-color:  #757575;
+  octonary, nonary, denary.
 }
 
 body {
@@ -11,23 +17,97 @@ body {
   color: var(--main-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display:block;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1600px;
+  align-items: center;
+  margin: 0 auto;
+  background: var(--tertiary-color);
+}
+
+.section {
+  padding-bottom: 94px;
+}
+
 /* ========== COMPONENTS ========== */
 
 .logo-web-studio-light-theme {
   color: var(--main-color);
-  background-color: #ffffff;
+  background-color: var(--tertiary-color);
 }
 
 .logo-web-studio-dark-theme {
-  color: #ffffff;
-  background-color: #2F303A;
+  color: var(--tertiary-color);
+  background-color: var(--quaternary-color);
 }
 
 /* ========== END COMPONENTS ========== */
 
 /* ========== HEADER ========== */
 
-/* ========== WEBSTUDIO ==========  */
+.header {
+  width: 1600px;
+  height: 80px;
+  background: var(--tertiary-color);
+  border-bottom: 1px solid var(--quinary-color);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation  {
+  display: flex;
+
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.header .mailto {
+  margin-left: 371px;
+  margin-right: 50px;
+}
 
 .logo-web-studio {
   font-family: var(--secondary-font);
@@ -35,14 +115,12 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  text-decoration: none;
+  padding: 24px 93px 24px 215px;
 }
 
 .logo-web-studio span {
   color: var(--secondary-color);
 }
-
-/* ========== END WEBSTUDIO ==========  */
 
 .navigation-list-link,
 .mailto,
@@ -51,7 +129,6 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .navigation-list-link:visited {
@@ -60,7 +137,7 @@ body {
 
 .mailto,
 .phone {
-  color: #757575;
+  color: var(--septenary-color);
 }
 
 .navigation-list-link:hover,
@@ -80,63 +157,94 @@ body {
   color: var(--secondary-color);
 }
 
-.navigation-list,
-.our-strengths-item,
-.what-we-do-list,
-.our-team-list,
-.button-list,
-.images-list,
-.address-list-item {
-  list-style: none;
-}
-
 /* ========== END HEADER ========== */
 
+/* ========== HERO ========== */
 /* ========== EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
 
-.effective-solutions-background {
-  background-color: #2f303a;
+.hero .container {
+  display: block;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  background-color: var(--quaternary-color);
+}
+
+.hero-top-side {
+  display: block;
+  margin: 200px 452px 30px;
 }
 
 .effective-solutions-for-your-business {
+  position: absolute;
+  width: 696px;
+  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--tertiary-color);
+}
+
+.hero-bottom-side {
+  display: block;
+  margin: 350px 700px 200px;
 }
 
 .modal-btn {
+  /* width: 200px; */
+  /* height: 50px; */
+  border: 0px;
+  border-radius: 4px;
+  padding: 10px 41px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background: var(--secondary-color);
+  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  cursor: pointer;
-
-  display: flex;
+  /* display: flex;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   letter-spacing: 0.06em;
-  color: white;
-
-  /* bg modal-btn "Zamów usługę" */
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  color: var(--tertiary-color);
+  cursor: pointer;
 }
 
 /* ========== END EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
 
 /* ========== NASZE ATUTY ========== */
+.our-strengths .container {
+  position: absolute;
+  width: 1600px;
+  /* height: 101px; */
+  left: 215px;
+  right: 215px;
+  top: 774px;
+}
+
+.our-strengths-list {
+  display: flex;  
+  
+}
+
+.our-strengths-item {
+  flex-basis: calc(100% / 4 - 30px);
+}
+.our-strengths-item:not(:last-child) {
+  margin-right: 30px;
+ }
+
 .our-strengths-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
+  color: var(--main-color);
 }
 
 .our-strengths-text {
@@ -144,13 +252,37 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--septenary-color);
 }
 
 /* ========== END NASZE ATUTY ========== */
 
 /* ========== CZYM SIĘ ZAJMUJEMY ========== */
+.what-we-do .container {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+  /* margin: 969px 215px 0px 215px; */
+}
+
+/* .what-we-do-title {
+  padding: 0px 409px; */
+
+.what-we-do .what-we-do-title {
+  margin-bottom: 50px;
+}
+
+.what-we-do-list {
+  display: flex;
+}
+
+.what-we-do-list-item:not(:last-child) {
+  margin-right: 30px;
+ }
+
+
 
 .what-we-do-title,
 .our-team-title {
@@ -159,56 +291,102 @@ body {
   line-height: 1.667;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--main-color);
 }
 
 /* ========== END CZYM SIĘ ZAJMUJEMY ========== */
 
 /* ========== NASZ ZESPÓŁ ========== */
+.our-team .container {
+  position: absolute;
+  /* width: 1600px;
+  height: 648px; */
+  /* left: 0px; */
+  top: 1449px;
+  background: var(--senary-color);
+}
+
+.our-team-title {
+  padding: 94px 695px 50px;
+  
+}
 
 .our-team-list-item {
-  background: url(2968.jpg);
-  border-radius: 0px;
+  background: var(--tertiary-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list {
+  display: flex;
+  padding-left: 215px;
+  padding-bottom: 94px;
+}
+
+.our-team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-team-list-img {
+  margin-bottom: 30px;
 }
 
 .team-name {
+  margin-bottom: 10px;
   font-weight: 500;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .team-job {
   font-weight: 400;
-  color: #757575;
+  color: var(--septenary-color);
 }
 
 .team-name,
 .team-job {
   font-size: 16px;
   line-height: 1.888;
-
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
 }
+
 /* ========== END NASZ ZESPÓŁ ========== */
 
 /* ========== END MAIN ========== */
 
 /* ========== FOOTER ========== */
 
-.footer {
-  background-color: #2f303a;
+.footer .container {
+  position: absolute;
+  /* width: 1600px;
+  height: 252px;
+  left: 0px; */
+  top: 2097px;
+  background-color: var(--quaternary-color);
 }
 
-/* .p logo studio w footer */
+.footer .logo-web-studio {
+  padding: 60px 1240px 20px 215px;
+}
+.address-list {
+
+}
+.address-list-item {
+  display: flex;
+  padding-left: 215px;
+  padding-bottom: 9px;
+}
 
 .address-home {
-  color: #ffffff;
+  color: var(--tertiary-color);
 }
 
 .contact-mailto,
 .contact-phone {
   color: rgba(255, 255, 255, 0.6);
+}
+.contact-phone {
+  margin-bottom: 60px;
 }
 
 .address-home,
@@ -233,17 +411,17 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 
-  color: #212121;
+  color: var(--main-color);
 
-  background: #f5f4fa;
+  background: var(--senary-color)#f5f4fa;
   border-radius: 0px;
 }
 
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
-  color: #ffffff;
+  color: var(--tertiary-color);
 
-  background: #2196f3;
+  background: var(--secondary-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 0px;
@@ -254,8 +432,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  color: #212121;
+  color: var(--main-color);
 }
 
 .images-type {
@@ -263,8 +440,7 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--septenary-color);
 }
 
 /* ========== END PORTFOLIO ========== */
