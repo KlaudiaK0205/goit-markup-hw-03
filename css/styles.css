@@ -129,6 +129,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.navigation-list-link {
+  font-color: var(--main-color)
+}
+
 .navigation-list-link:visited {
   color: var(--main-color);
 }
