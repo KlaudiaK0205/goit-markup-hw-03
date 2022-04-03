@@ -135,6 +135,7 @@ img {
 
 .navigation-list-link:visited {
   color: var(--main-color);
+  text-decoration: none;
 }
 
 .mailto,
