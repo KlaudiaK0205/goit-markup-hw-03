@@ -417,7 +417,7 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   background: var(--tertiary-color);
-  border: 1px solid var(--octonary-color);
+  border-bottom: 1px solid var(--octonary-color);
   margin-bottom: 30px;
 }
 
@@ -437,6 +437,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--septenary-color);
   padding: 0 24px 20px;
+}
+
+.images-name,
+.images-type {
+  border-left: 1px solid var(--octonary-color);
+  border-right: 1px solid var(--octonary-color);
+
 }
 
 /* ========== END PORTFOLIO ========== */
