@@ -48,6 +48,13 @@ img {
   text-decoration: none;
 }
 
+.navigation-list .link:visited,
+.navigation-list .link:active,
+.address-list .link:visited,
+.address-list .link:active {
+  color: var(--main-color);
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -207,11 +214,16 @@ img {
 .our-strengths {
   width: 1600px;
 }
+.our-strength .container {
+  display: inline;
+
+}
 
 .our-strengths-list {
   display: flex;
   justify-content: center;
 }
+
 
 .our-strengths-item:not(:last-child) {
   margin-right: 30px;
