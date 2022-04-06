@@ -334,7 +334,6 @@ img {
 }
 
 .logo-web-studio-dark-theme {
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 
@@ -431,7 +430,6 @@ img {
 .images-type {
   border-left: 1px solid var(--octonary-color);
   border-right: 1px solid var(--octonary-color);
-
 }
 
 /* ========== END PORTFOLIO ========== */
