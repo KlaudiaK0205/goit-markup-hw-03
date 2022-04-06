@@ -2,7 +2,7 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --main-color: #212121;
-  --secondary-color: #2196f3;
+ --secondary-color: #2196f3;
   --tertiary-color: #ffffff;
   --quaternary-color: #2f303a;
   --quinary-color: #ECECEC;
@@ -13,6 +13,7 @@
 
 body {
   font-family: var(--main-font);
+  /* font-style: normal; */
 }
 
 h1,
@@ -51,7 +52,6 @@ img {
 .container {
   width: 1200px;
   padding: 0 15px;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -76,7 +76,6 @@ img {
 .navigation-list-link:focus,
 .button-list-item:hover,
 .button-list-item:focus,
-
 .address-home:hover,
 .address-home:focus,
 .mailto:hover,
@@ -95,7 +94,6 @@ img {
 /* ========== HEADER ========== */
 
 .header {
-  width: 1600px;
   border-bottom: 1px solid var(--quinary-color);
 }
 
@@ -119,22 +117,23 @@ img {
   margin-right: 46px;
 }
 
-.header .mailto {
-  margin-left: auto;
-  margin-right: 50px;
-}
-
 .logo-web-studio {
+  margin-right: 93px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  margin-right: 93px;
+  text-decoration: none;
 }
 
 .logo-web-studio span {
   color: var(--secondary-color);
+}
+
+.header .mailto {
+  margin-left: auto;
+  margin-right: 50px;
 }
 
 .navigation-list-link,
@@ -159,58 +158,52 @@ img {
 
 /* ========== EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
 
-.hero {
-  width: 1600px;
+.effective-solutions {
+  display: flex;
   background-color: var(--quaternary-color);
-}
-
-.hero .container {
-  display: block;
-  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .effective-solutions-for-your-business {
-  padding-top: 200px;
-  padding-bottom: 30px;
-  margin-left: 237px;
-  width: 652px;
+  width: 696px;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--tertiary-color); 
+  text-transform: uppercase;
+  color: var(--tertiary-color)
 }
 
 .modal-btn {
-  margin-left: 485px;
-  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 41px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--tertiary-color);
-  cursor: pointer;
   background-color: var(--secondary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  padding: 10px 41px 10px 42px;
+  cursor: pointer;
 }
 
 /* ========== END EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
 
 /* ========== NASZE ATUTY ========== */
 
-.our-strengths {
-  width: 1600px;
-}
-
 .our-strengths-list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .our-strengths-item:not(:last-child) {
@@ -222,13 +215,11 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--main-color);
-  padding-bottom: 10px;
-  
 }
 
 .our-strengths-text {
-  width: 270px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -239,14 +230,14 @@ img {
 /* ========== END NASZE ATUTY ========== */
 
 /* ========== CZYM SIĘ ZAJMUJEMY ========== */
-
 .what-we-do {
-  width: 1600px;
+  margin-bottom: 94px;
 }
 
-.what-we-do .container{
-  display: block;
+.what-we-do-title {
+  margin-bottom: 50px;
 }
+
 .what-we-do-list {
   display: flex;
 }
@@ -257,7 +248,6 @@ img {
 
 .what-we-do-title,
 .our-team-title {
-  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.667;
@@ -269,15 +259,13 @@ img {
 /* ========== END CZYM SIĘ ZAJMUJEMY ========== */
 
 /* ========== NASZ ZESPÓŁ ========== */
-
 .our-team {
-  width: 1600px;
+  display: flex;
   background: var(--senary-color);
-  margin-top: 94px;
 }
 
-.our-team .container {
-  display: block;
+.our-team-title {
+  margin-bottom: 50px;
 }
 
 .our-team-list {
@@ -311,8 +299,8 @@ img {
 .team-job {
   font-size: 16px;
   line-height: 1.888;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /* ========== END NASZ ZESPÓŁ ========== */
@@ -322,13 +310,8 @@ img {
 /* ========== FOOTER ========== */
 
 .footer {
-  width: 1600px;
-  background-color: var(--quaternary-color);
-
-}
-.footer .container {
   display: block;
-  
+  background-color: var(--quaternary-color);
 }
 
 .address-home {
@@ -336,18 +319,26 @@ img {
 }
 
 .logo-web-studio-dark-theme {
-  padding-top: 60px;
   padding-bottom: 20px;
 }
+
 .contact-mailto,
 .contact-phone {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .address-home,
+.contact-mailto {
+  padding-bottom: 9px;
+}
+
+.contact-phone {
+  padding-bottom: 60px;
+}
+
+.address-home,
 .contact-mailto,
 .contact-phone {
-  padding-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -358,11 +349,6 @@ img {
 /* ========== END FOOTER ========== */
 
 /* ========== PORTFOLIO ========== */
-
-.main {
-  width: 1600px;
-}
-
 .button-list {
   display: flex;
   padding-bottom: 50px ;
@@ -382,7 +368,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-color);
   background: var(--senary-color);
-  border: 0;
+  border: 0px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -390,9 +376,11 @@ img {
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
   color: var(--tertiary-color);
+
   background: var(--secondary-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .images-list {
@@ -408,6 +396,12 @@ img {
   background: var(--tertiary-color);
   border-bottom: 1px solid var(--octonary-color);
   margin-bottom: 30px;
+}
+
+.images-name,
+.images-type {
+  border-left: 1px solid var(--octonary-color);
+  border-right: 1px solid var(--octonary-color);
 }
 
 .images-name {
@@ -426,13 +420,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--septenary-color);
   padding: 0 24px 20px;
-}
-
-.images-name,
-.images-type {
-  border-left: 1px solid var(--octonary-color);
-  border-right: 1px solid var(--octonary-color);
-
 }
 
 /* ========== END PORTFOLIO ========== */
