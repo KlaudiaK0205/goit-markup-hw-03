@@ -100,6 +100,9 @@ img {
 /* ========== END COMPONENTS ========== */
 
 /* ========== HEADER ========== */
+.body {
+  width: 1600px;
+}
 
 .header {
   border-bottom: 1px solid var(--quinary-color);
