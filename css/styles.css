@@ -102,7 +102,6 @@ img {
 /* ========== HEADER ========== */
 
 .header {
-  width: 1600px;
   border-bottom: 1px solid var(--quinary-color);
 }
 
@@ -167,7 +166,6 @@ img {
 /* ========== EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
 
 .hero {
-  width: 1600px;
   background-color: var(--quaternary-color);
 }
 
@@ -212,7 +210,7 @@ img {
 /* ========== NASZE ATUTY ========== */
 
 .our-strengths {
-  width: 1600px;
+
 }
 .our-strength .container {
   display: inline;
@@ -253,7 +251,7 @@ img {
 /* ========== CZYM SIĘ ZAJMUJEMY ========== */
 
 .what-we-do {
-  width: 1600px;
+
 }
 
 .what-we-do .container{
@@ -283,7 +281,6 @@ img {
 /* ========== NASZ ZESPÓŁ ========== */
 
 .our-team {
-  width: 1600px;
   background: var(--senary-color);
   margin-top: 94px;
 }
@@ -334,7 +331,7 @@ img {
 /* ========== FOOTER ========== */
 
 .footer {
-  width: 1600px;
+
   background-color: var(--quaternary-color);
 
 }
