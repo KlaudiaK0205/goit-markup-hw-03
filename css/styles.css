@@ -49,9 +49,7 @@ img {
 }
 
 .navigation-list .link:visited,
-.navigation-list .link:active,
-.address-list .link:visited,
-.address-list .link:active {
+.navigation-list .link:active {
   color: var(--main-color);
 }
 
@@ -212,12 +210,8 @@ img {
 
 /* ========== NASZE ATUTY ========== */
 
-.our-strengths {
-
-}
 .our-strength .container {
   display: inline;
-
 }
 
 .our-strengths-list {
@@ -237,7 +231,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-color);
   padding-bottom: 10px;
-  
 }
 
 .our-strengths-text {
@@ -252,10 +245,6 @@ img {
 /* ========== END NASZE ATUTY ========== */
 
 /* ========== CZYM SIĘ ZAJMUJEMY ========== */
-
-.what-we-do {
-
-}
 
 .what-we-do .container{
   display: block;
@@ -334,7 +323,6 @@ img {
 /* ========== FOOTER ========== */
 
 .footer {
-
   background-color: var(--quaternary-color);
 
 }
