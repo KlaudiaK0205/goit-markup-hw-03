@@ -340,7 +340,6 @@ img {
 }
 .footer .container {
   display: block;
-  
 }
 
 .address-home {
@@ -351,6 +350,7 @@ img {
   padding-top: 60px;
   padding-bottom: 20px;
 }
+
 .contact-mailto,
 .contact-phone {
   color: rgba(255, 255, 255, 0.6);
