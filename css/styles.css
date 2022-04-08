@@ -156,10 +156,6 @@ img {
   color: var(--main-color);
 }
 
-.navigation-list-link:visited {
-  color: var(--main-color);
-}
-
 .mailto,
 .phone {
   color: var(--septenary-color);
